@@ -1,9 +1,48 @@
-Seu nome
-@seunome
-Editar
-Projetos
-27
-Estrelas
-302
-Seguidores
-83
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Profile Component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="user">
+          <div class="info">
+            <div class="icon"></div>
+            <h1>Lorem Ipsum</h1>
+            <p>@useripsum</p>
+          </div>
+          <div class="button">
+            <i data-feather="edit"></i>
+            <p>Editar</p>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="projects">
+            <p>Projetos</p>
+            <h1>27</h1>
+          </div>
+          <div class="starts">
+            <p>Estrelas</p>
+            <h1>302</h1>
+          </div>
+          <div class="followers">
+            <p>Seguidores</p>
+            <h1>83</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
