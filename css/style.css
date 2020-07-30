@@ -1,0 +1,113 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+p,
+li,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  background: #0c0b0b;
+  color: #b7b7b7;
+}
+
+/* Container */
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background: #0f0e0e;
+  width: 860px;
+  padding: 60px;
+}
+
+/* User info */
+.user {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.info::before,
+.info::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Avatar */
+.icon {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #1b1b1b;
+  float: left;
+}
+
+.info {
+  width: 100%;
+  float: left;
+}
+
+.info h1 {
+  margin-top: 15px;
+}
+
+/* Button */
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.feather {
+  width: 25px;
+  height: 25px;
+}
+
+.button p {
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+/* Stats */
+.stats {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats > :nth-child(1) {
+  background: #046313;
+}
+
+.stats > :nth-child(2) {
+  background: #044a7d;
+}
+
+.stats > :nth-child(3) {
+  background: #725200;
+}
+
+.projects {
+  margin: 0 15px;
+  flex: 1;
+  padding: 25px;
+  border-radius: 5px;
+}
