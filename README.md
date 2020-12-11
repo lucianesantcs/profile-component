@@ -3,6 +3,6 @@
   Perfil de um usuário
 </p>
 <p align="center">
-  <a href="https://devchallenge.now.sh/detail/5f0b4acaa5fec43156149044">DevChallenge</a> · 
+  <a href="https://devchallenge.com.br/challenges/5f0b4acaa5fec43156149044/details">DevChallenge</a> · 
 Desafio por <a href="https://github.com/devchallenge-io/profile-component">Lorena Montes</a>
 </p>
